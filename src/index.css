@@ -28,7 +28,7 @@ body{
     font-family: 'Po ppins', sans-serif;
     background: var( --color-bg);
     color: white; 
-    background-image :url(../src/photos/bg-texture.jpg) ;
+    background-image :url(https://github.com/Souless911/react-shapes365/blob/main/src/photos/bg-texture.jpg) ;
     line-height: 1.7 ;
 } 
  
