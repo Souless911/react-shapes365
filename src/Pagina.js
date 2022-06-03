@@ -9,11 +9,11 @@ import { BiGitCompare } from 'react-icons/bi'
 import { BsHandThumbsUp } from 'react-icons/bs'
 import { MdOutlineHighQuality } from 'react-icons/md'
 import foto from './photos/i2.jpg'
-import foto2 from './photos/shapes_foto_3.png'
+import foto2 from './media/shapes_foto_3.42386c55269bac0ae493.png'
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {MdOutlineEmail} from 'react-icons/md'
-import {BsWhatsapp} from 'react-icons/bs'
+import { MdOutlineEmail } from 'react-icons/md'
+import { BsWhatsapp } from 'react-icons/bs'
 import { useRef } from 'react';
 // Import Swiper styles
 import 'swiper/css';
@@ -183,27 +183,27 @@ const Pagina = () => {
         </Swiper>
       </section>
 
-       <section id='cita'>
-    <h5>Te interesa?</h5>
-    <h2>Llamame!</h2>
+      <section id='cita'>
+        <h5>Te interesa?</h5>
+        <h2>Llamame!</h2>
 
-    <div className="container cita__container">
-      <div className="cita__options">
-        <article className='cita__option'>
-          <MdOutlineEmail className='cita_option-icon'/>
-          <h4>Email</h4>
-          <h5>inserteemail</h5>
-          <a href='mailto:test@gmail.com'>Send an email</a>
-        </article>
-        <article className='cita__option'>
-          <BsWhatsapp className='cita_option-icon'/>
-          <h4>Whatsapp</h4>
-          <h5>el numero</h5>
-          <a href='https://api.whatsapp.com/send?phone=+523335840373' target="_blank">Send a whatsapp</a>
-        </article>
+        <div className="container cita__container">
+          <div className="cita__options">
+            <article className='cita__option'>
+              <MdOutlineEmail className='cita_option-icon' />
+              <h4>Email</h4>
+              <h5>inserteemail</h5>
+              <a href='mailto:test@gmail.com'>Send an email</a>
+            </article>
+            <article className='cita__option'>
+              <BsWhatsapp className='cita_option-icon' />
+              <h4>Whatsapp</h4>
+              <h5>el numero</h5>
+              <a href='https://api.whatsapp.com/send?phone=+523335840373' target="_blank">Send a whatsapp</a>
+            </article>
           </div>
-          </div>
-          </section>
+        </div>
+      </section>
     </>
   )
 
