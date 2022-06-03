@@ -8,8 +8,8 @@ import { AiOutlineEyeInvisible } from 'react-icons/ai'
 import { BiGitCompare } from 'react-icons/bi'
 import { BsHandThumbsUp } from 'react-icons/bs'
 import { MdOutlineHighQuality } from 'react-icons/md'
-import foto from './photos/i2.jpg'
-import foto2 from './photos/shapes_foto_3.png'
+import foto from '/photos/i2.jpg'
+import foto2 from '/photos/shapes_foto_3.png'
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {MdOutlineEmail} from 'react-icons/md'
